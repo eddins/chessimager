@@ -12,16 +12,11 @@ The default style is `merida`. These are the available styles:
 || `alfonso` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=alfonso&square_size=25&nonsense=foobar.png ||
 || `cases` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=cases&square_size=25&nonsense=foobar.png ||
 || `condal` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=condal&square_size=25&nonsense=foobar.png ||
-
-http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=harlequin&square_size=25&nonsense=foobar.png
-
-http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=kingdom&square_size=25&nonsense=foobar.png
-
-http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=leipzig&square_size=25&nonsense=foobar.png
-
-http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=line&square_size=25&nonsense=foobar.png
-
-http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=lucena&square_size=25&nonsense=foobar.png
+|| `harlequin` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=harlequin&square_size=25&nonsense=foobar.png ||
+|| `kingdom` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=kingdom&square_size=25&nonsense=foobar.png ||
+|| `leipzig` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=leipzig&square_size=25&nonsense=foobar.png ||
+|| `line` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=line&square_size=25&nonsense=foobar.png ||
+|| `lucena` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=lucena&square_size=25&nonsense=foobar.png ||
 
 http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=magnetic&square_size=25&nonsense=foobar.png
 
