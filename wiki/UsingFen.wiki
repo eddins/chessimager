@@ -1,4 +1,4 @@
-#summary Using a FEN string in a URL to draw a board image.
+#summary Using a FEN string in a URL to draw a board image
 
 A [http://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation FEN string] consists of letters, numbers, and slashes. It contains no spaces.
 
