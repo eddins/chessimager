@@ -1,4 +1,4 @@
-#summary Changing the size of the squares.
+#summary Changing the size of the squares
 
 To change the size the squares, add this to the end of the URL:
 
