@@ -31,9 +31,7 @@ The complete URL for the image above is:
 
 {{{
 http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?
-fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/
-&ds_color=(70,109,186)
-&ls_color=(255,220,175)
+fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&ds_color=(70,109,186)&ls_color=(255,220,175)
 }}}
 
 (You need to put that all on one line, with no spaces.)
