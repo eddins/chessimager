@@ -1,4 +1,4 @@
-#summary Changing the square colors.
+#summary Changing the square colors
 
 To change the color of the dark squares, add this to the end of the URL:
 
