@@ -1,6 +1,6 @@
 #summary Using a FEN string in a URL to draw a board image.
 
-A FEN string consists of letters, numbers, and slashes. It contains no spaces.
+A [http://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation FEN string] consists of letters, numbers, and slashes. It contains no spaces.
 
 Lower-case letters indicate black pieces: p, r, n, b, q, and k are the pawn, rook, knight, bishop, queen, and king. Upper-case letters indicate white pieces: P, R, N, B, Q, and K. A digit indicates unoccupied squares. For example, the digit 3 indicates 3 successive unoccupied squares.
 
