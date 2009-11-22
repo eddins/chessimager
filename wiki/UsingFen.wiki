@@ -24,13 +24,12 @@ The URL above generates this image:
 
 http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&nonsense=foobar.png
 
-The position after 1.e4:
+Here's the URL for the position after 1. e4 c5:
 
-rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR
+{{{
+    http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR
+}}}
 
-And after the response 1…c5:
+Here's the resulting image:
 
-rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR
-
-rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR
-After 1…c5
+http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR&nonsense=foobar.png
