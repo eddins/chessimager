@@ -1,0 +1,3 @@
+ * Form to make it easy to create the URL
+ * Player-to-move indicator
+ * Annotating squares (X's, arrows, etc.)
