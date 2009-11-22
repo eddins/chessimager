@@ -1,0 +1,5 @@
+#summary Installation instructions
+
+Download the distribution package, unzip the files, and upload them to your web server.
+
+Chess Imager requires that the PHP GD Library be installed on your server.
