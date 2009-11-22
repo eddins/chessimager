@@ -1,0 +1,24 @@
+#summary Using a FEN string in a URL to draw a board image.
+
+
+
+Here are the basics. Lower-case letters indicate black pieces: p, r, n, b, q, and k are the pawn, rook, knight, bishop, queen, and king. Upper-case letters indicate white pieces: P, R, N, B, Q, and K. A digit indicates unoccupied squares. For example, the digit 3 indicates 3 successive unoccupied squares.
+
+Starting with the 8th rank, you simply list the pieces and unoccupied squares in order, left-to-right. Ranks are separated by the forward slash. In my image example above, the FEN string started with r3k2r/p1pp1p2/. On the eighth rank, from left to right, there’s a black rook, 3 empty squares, a black king, 2 empty squares, and a black rook. Then on the seventh rank, there’s a black pawn, an empty square, two black pawns, an empty square, a black pawn, and two empty squares.
+
+A complete FEN string also includes game information such as the move number, who’s on the move, castling privileges, etc. ChessImager, though, only uses the position information as described above.
+
+Here’s the FEN string for the starting position:
+
+rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/
+
+The position after 1.e4:
+
+rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR
+
+And after the response 1…c5:
+
+rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR
+
+rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR
+After 1…c5
