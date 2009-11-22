@@ -6,6 +6,8 @@ To change the style of the pieces, add this to the end of the URL:
 &piece_style=style
 }}}
 
+The styles are all derived by chess fonts created by Armando Hernandez Marroquin and distributed as "freeware."
+
 The default style is `merida`. These are the available styles:
 
 || `adventurer` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=adventurer&square_size=25&nonsense=foobar.png || `alfonso` || http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/&piece_style=alfonso&square_size=25&nonsense=foobar.png ||
