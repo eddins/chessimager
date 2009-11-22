@@ -11,14 +11,14 @@ A complete FEN string also includes game information such as the move number, wh
 Here’s the FEN string for the starting position:
 
 {{{
-    rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/
+rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/
 }}}
 
 To generate a board image, append the FEN string to the URL pointing to the !ChessImager.php script location as follows:
 
 {{{
-    http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=
-    rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/
+http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=
+rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/
 }}}
 
 The URL above generates this image:
@@ -28,8 +28,8 @@ http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=rnbqkbnr/ppppp
 Here's the URL for the position after 1. e4 c5:
 
 {{{
-    http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=
-    rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR
+http://www.eddins.net/steve/chess/ChessImager/ChessImager.php?fen=
+rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR
 }}}
 
 Here's the resulting image:
