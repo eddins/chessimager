@@ -258,11 +258,12 @@ function parseFenString($str)
 }
 
 function getPieceStyle() {
-  $piece_style_str = $_GET['piece_style'];
-  if (strlen($piece_style_str) == 0) {
-    $piece_style_str = "merida";
+  $piece_style_str = "merida";
+
+  if (isset($_GET['piece_style'])) {
+    $piece_style_str = $_GET['piece_style'];
   }
- 
+
   return($piece_style_str);
 }
 
