@@ -31,7 +31,7 @@ function loadPNG($image_name) {
 
 function parseColorString($str, &$red, &$green, &$blue) {
   preg_match("/\(?(\d+),(\d+),(\d+)\)?/", $str, $array);
-  if (strlen($array[0]) > 0) {
+  if (!empty($colors) && strlen($array[0]) > 0) {
     $red   = $array[1];
     $green = $array[2];
     $blue  = $array[3];
@@ -43,7 +43,10 @@ function getColorFromUrl($str, $default_red, $default_green, $default_blue,
   $red = $default_red;
   $green = $default_green;
   $blue = $default_blue;
-  parseColorString($_GET[$str], $red, $green, $blue);
+
+  if (isset($_GET[$str])) {
+      parseColorString($_GET[$str], $red, $green, $blue);
+  }
 }
 
 function getDarkSquareColor($im) {
@@ -62,17 +65,23 @@ function getOutlineColor($im) {
 }
 
 function getBorderWidth() {
-  $border_width_string = $_GET['border_width'];
-  if (strlen($border_width_string) > 0) {
-    return $border_width_string;
+  if (isset($_GET['border_width'])) {
+    $border_width_string = $_GET['border_width'];
+
+    if (strlen($border_width_string) > 0) {
+        return $border_width_string;
+    }
   }
-  else {
-    return 1;
-  }
+
+  return 1;
 }
 
 function isCoordinatesEnabled() {
-  return(strcmp($_GET['coordinates'], "on") == 0);
+  if (isset($_GET['coordinates'])) {
+    return  'on' == $_GET['coordinates'];
+  }
+
+  return  false;
 }
 
 function getCoordinateWidth() {
@@ -138,7 +147,6 @@ function addCoordinates($im, $direction) {
     $y += $deltaY;
   }
 
-  $file = substr($files, $k - 1, 1);
   $x1 = $decorationWidth + ($squareSize - imageFontWidth($font)) / 2;
   $y_top_letters = ($decorationWidth - imageFontHeight($font)) / 2;
   $y_bottom_letters = $y_top_letters + 8 * $squareSize + $decorationWidth;
@@ -206,17 +214,18 @@ function makeBoardImage($direction) {
 }
 
 function getSquareSize() {
-  $square_size_str = $_GET['square_size'];
-  if (strlen($square_size_str) == 0) {
-    return(35);
+  $square_size = 35;
+
+  if (isset($_GET['square_size'])) {
+    $square_size = min($_GET['square_size'], 150);
   }
-  else {
-    return(min($square_size_str, 150));
-  }
+
+  return $square_size;
 }
 
 function parseFenString($str)
 {
+  $out = array();
   $count = 0;
   for ($k = 0; $k < strlen($str); $k++) {
     $char = substr($str, $k, 1);
@@ -245,9 +254,7 @@ function parseFenString($str)
     }
   }
 
-  $out = array_pad($out, 64, " ");
-
-  return $out;
+  return array_pad($out, 64, " ");
 }
 
 function getPieceStyle() {
@@ -278,12 +285,11 @@ function pieceFilename($piece)
 }
 
 function getBoardDirection() {
-  $board_direction_str = $_GET['direction'];
-  if (strlen($board_direction_str) == 0) {
-    $board_direction_str = 'normal';
+  if (isset($_GET['direction'])) {
+    return $_GET['direction'];
   }
 
-  return($board_direction_str);
+  return 'normal';
 }
 
 function mergePiece($board, $piece, $square, $direction) {
